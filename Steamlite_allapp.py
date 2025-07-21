@@ -7,7 +7,7 @@ import plotly.express as px # For the overview tab (even if not used in this spe
 # --- Database Connection Details ---
 # IMPORTANT: Replace with your ACTUAL MySQL database credentials
 DB_CONFIG = {
-    'host': 'localhost',         # e.g., 'localhost' or '127.0.0.1'
+    'host': '127.0.0.1',         # e.g., 'localhost' or '127.0.0.1'
     'user': 'root',              # Your MySQL username
     'password': '',              # Your MySQL password (use '' if no password)
     'database': 'dnd_database'   # The name of your D&D database
